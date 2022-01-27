@@ -1,0 +1,48 @@
+
+const Board = () => {
+  console.log(state);
+  return (
+    <>
+      <h1 className="title">Tic tac Toe</h1>
+      <Toggle />
+      <br /> <br />
+      <p id="status"></p>
+      <button className="reset" onClick={reset}>
+        Reset
+      </button>
+      <br />
+      <br />
+      <div className="container">
+        <div className="grid">
+          <div className="grid-item">
+            <button id="0" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="1" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="2" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="3" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="4" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="5" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="6" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="7" onClick={changeValue}></button>
+          </div>
+          <div className="grid-item">
+            <button id="8" onClick={changeValue}></button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};

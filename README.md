@@ -1,3 +1,7 @@
+# Simple React tic tac toe
+
+## Design is still in the works
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
