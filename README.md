@@ -1,6 +1,9 @@
 # Simple React tic tac toe
 
 ## Design is still in the works
+![](public/design.png)
+
+public/design.png
 
 # Getting Started with Create React App
 
